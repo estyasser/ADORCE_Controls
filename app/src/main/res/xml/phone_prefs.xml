@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/sound_controls">
+        <SwitchPreference
+            android:key="volume_warning_toggle"
+            android:defaultValue="true"
+            android:title="@string/vol_warn"
+            android:summaryOn="@string/summaryOn"
+            android:summaryOff="@string/summaryOff" />
+        <SwitchPreference
+            android:key="db_inc_volume_disable"
+            android:defaultValue="false"
+            android:title="@string/incresing_ringtone"
+            android:summaryOn="@string/summaryOn"
+            android:summaryOff="@string/summaryOff" />
+        <SwitchPreference
+            android:key="last_spoke"
+            android:defaultValue="true"
+            android:title="@string/incall_last_call"
+            android:summaryOn="@string/visibility_on"
+            android:summaryOff="@string/visibility_off" />
+        <SwitchPreference
+            android:key="last_message"
+            android:defaultValue="true"
+            android:title="@string/incall_last_msg"
+            android:summaryOn="@string/visibility_on"
+            android:summaryOff="@string/visibility_off" />
+        <SwitchPreference
+            android:key="auto_call_record"
+            android:defaultValue="false"
+            android:title="@string/auto_call_record"
+            android:summaryOn="@string/summaryOn"
+            android:summaryOff="@string/summaryOff" />
+        <CheckBoxPreference
+            android:key="call_record_in"
+            android:dependency="auto_call_record"
+            android:defaultValue="false"
+            android:title="@string/call_record_in"
+            android:summaryOn="@string/summaryOn"
+            android:summaryOff="@string/summaryOff" />
+        <CheckBoxPreference
+            android:key="call_record_out"
+            android:dependency="auto_call_record"
+            android:defaultValue="false"
+            android:title="@string/call_record_out"
+            android:summaryOn="@string/summaryOn"
+            android:summaryOff="@string/summaryOff" />
+        <com.ADORCE.controls.prefs.MyListPreference
+            android:key="db_call_delay"
+            android:defaultValue="5000"
+            android:entries="@array/call_delay_entries"
+            android:entryValues="@array/call_delay_values"
+            android:title="@string/rnd_call_delay"
+            android:dialogTitle="@string/end_call_delay_dialog" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/lockscreen_controls">
+        <SwitchPreference
+            android:key="lockscreen_quick_unlock_control"
+            android:defaultValue="false"
+            android:title="@string/lockscreen_quick_unlock"
+            android:summaryOn="@string/summaryOn"
+            android:summaryOff="@string/summaryOff" />
+        <SwitchPreference
+            android:key="lockscreen_scramble_pin_layout"
+            android:defaultValue="flase"
+            android:title="@string/lockscreen_pinpad_scrmbl"
+            android:summaryOn="@string/visibility_on"
+            android:summaryOff="@string/summaryOff" />
+        <SwitchPreference
+            android:key="lockscreen_rotate"
+            android:defaultValue="false"
+            android:title="@string/lockscreen_rotation"
+            android:summaryOn="@string/summaryOn"
+            android:summaryOff="@string/summaryOff" />
+        <com.ADORCE.controls.prefs.MyListPreference
+            android:key="lockscreen_clock_font_style"
+            android:defaultValue="1"
+            android:title="@string/lockscreen_clock_font"
+            android:entries="@array/lockscreen_font_style_entries"
+            android:entryValues="@array/lockscreen_font_style_values" />
+    </PreferenceCategory>
+</PreferenceScreen>

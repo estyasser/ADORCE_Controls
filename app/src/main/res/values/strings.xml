@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_reboot_required_message">"%1$s reboot is required for the changes to take effect.
+
+Reboot now?"</string>
+    <string name="app_reboot_required_title">App Reboot Required</string>
+    <string name="color_menu_press">Press to customize colors</string>
+    <string name="colorpicker_change">Change Color</string>
+    <string name="colorpicker_choose">Choose custom color</string>
+    <string name="colorpicker_menu">Customize colors</string>
+    <string name="colors_menu">Choose your preferred colors</string>
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="drawer_close">Menu closed</string>
+    <string name="drawer_open">Menu opened</string>
+    <string name="exit">Exit App</string>
+    <string name="gaining_root">Acquiring root access. Please wait..</string>
+    <string name="lockscreen_barometer_text_color_title">Barometer info text color</string>
+    <string name="lockscreen_city_weather_text_color_title">City text color</string>
+    <string name="lockscreen_degree_weather_text_color_title">Degree text color</string>
+    <string name="lockscreen_ext_color_menu">Lockscreen Extended infos</string>
+    <string name="lockscreen_extended">Lockscreen Extended information</string>
+    <string name="lockscreen_max_temp_weather_text_color_title">Max temp info text color</string>
+    <string name="lockscreen_min_temp_weather_text_color_title">Min temp info text color</string>
+    <string name="lockscreen_sunrise_off">Sunrise and Sunset info is hidden</string>
+    <string name="lockscreen_sunrise_on">Sunrise and Sunset info is shown</string>
+    <string name="lockscreen_sunrise_text_color_title">Sunrise info text color</string>
+    <string name="lockscreen_sunrise_title">Sunrise and Sunset Info</string>
+    <string name="lockscreen_sunset_text_color_title">Sunset text color</string>
+    <string name="lockscreen_temp_weather_text_color_title">Weather temp text color</string>
+    <string name="lockscreen_weather_addons">Weather Addons</string>
+    <string name="lockscreen_weather_text_color_title">Weather text color</string>
+    <string name="lockscreen_weather_widget_off">Weather Widget is hidden</string>
+    <string name="lockscreen_weather_widget_on">Weather Widget is shown</string>
+    <string name="lockscreen_weather_widget_title">Weather Widget</string>
+    <string name="memkiller_title">RAM Optimizer</string>
+    <string name="missing_su">"Your device is either not rooted or the app was denied root permissions.
+
+Please check your root/su status and try again later."</string>
+    <string name="missing_su_title">Could not get root access</string>
+    <string name="next_alarm_color">Next Alarm info text color</string>
+    <string name="next_alarm_off">Next Alarm info is hidden</string>
+    <string name="next_alarm_on">Next Alarm info is shown</string>
+    <string name="next_alarm_pref">Next Alarm</string>
+    <string name="notfication_panel">Notification Panel Mods</string>
+    <string name="noti_panel_color_menu">Notification Panel elements Colors</string>
+    <string name="press_color_to_apply">Press on Color to apply</string>
+    <string name="qtoggle_color">Quick Toggles Color</string>
+    <string name="qtoggle_text">Quick Toggles text view</string>
+    <string name="qtoggles_no">Number of Quick Toggles icons</string>
+    <string name="summaryOff">Disabled</string>
+    <string name="summaryOn">Enabled</string>
+    <string name="summaryx">This feature is not available in current device language</string>
+    <string name="telephony_controls">Telephony Controls</string>
+    <string name="theme_chooser_dialog_title">Choose Theme</string>
+    <string name="visibility_off">Hidden</string>
+    <string name="visibility_on">Shown</string>
+    <string name="abc_action_bar_home_description_format" translatable="false">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format" translatable="false">%1$s, %2$s, %3$s</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="app_name" translatable="false">ADORCE Controls</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="alarm_icon_visibility">Alarm Icon</string>
+    <string name="status_bar_cat">Status Bar Controls</string>
+    <string name="bt_icon_visibility">Bluetooth Icon</string>
+    <string name="sound_icons_visibility"><![CDATA[Vibration & Silent Icons]]></string>
+    <string name="memkiller_color">RAM Optimizer monitor color</string>
+    <string name="expanded_clock_style">Notification Panel Clock style</string>
+    <string name="expanded_clock_sum">You can change it to Analog or keep it Digital</string>
+    <string name="headsup_noti">Heads Up Notifications</string>
+    <string name="sf_qc_visibility"><![CDATA[Sfinder & Quick Connect bar]]></string>
+    <string name="vol_warn">Loud Volume Warning</string>
+    <string name="sound_controls"><![CDATA[Call & Sound Connect bar]]></string>
+    <string name="lockscreen_pinpad_scrmbl">Scramble PIN pad</string>
+    <string name="lockscreen_quick_unlock">Quick PIN unlock</string>
+    <string name="lockscreen_controls">Lockscreen Controls</string>
+    <string name="lockscreen_rotation" >Lockscreen Rotation</string>
+    <string name="statusbar_ticker">Statusbar Ticker</string>
+    <string name="ongoing_noti_hide">Ongoing Notifications</string>
+    <string name="auto_call_record">Automatic call record</string>
+    <string name="call_record_in">Incoming calls recording</string>
+    <string name="call_record_out">Outgoing calls recording</string>
+    <string name="rnd_call_delay">End Call screen delay</string>
+    <string name="end_call_delay_dialog">End Call screen delay (seconds)</string>
+    <string name="dialog_save">Save</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="incresing_ringtone">Decreasing ringtone</string>
+    <string name="incall_last_call">InCall Last Spoke</string>
+    <string name="incall_last_msg">InCall Last Message</string>
+    <string name="lockscreen_clock_font">Lockscreen Clock font style</string>
+    <string name="upsm_pref_sum">Control apps included in Ultra Power Saving Mode</string>
+    <string name="upsm_pref_title">UPSM Manager</string>
+    <string name="es_pref_title">ES File Explorer</string>
+    <string name="apps_links_cat">Links to some useful apps</string>
+    <string name="es_pref_sum">File Explorer with root privileges. USE IT AT YOUR OWN RISK!</string>
+    <string name="supersu_pref_sum">Control apps with root privilege. USE IT AT YOUR OWN RISK!</string>
+    <string name="term_emu_pref_sum">The Android\'s native Shell Screen. USE IT AT YOUR OWN RISK!</string>
+    <string name="fix_perm1">Fix some system permissions</string>
+    <string name="fix_perm1_sum">framework; app; priv-app; lib; media. USE IT (ONLY) WHEN NECESSARY!</string>
+</resources>
