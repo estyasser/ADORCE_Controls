@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/apps_links_cat">
+        <PreferenceScreen
+            android:key="mobi.xperiacle.upsm.manager.MainActivity"
+            android:title="@string/upsm_pref_title"
+            android:summary="@string/upsm_pref_sum" />
+        <PreferenceScreen
+            android:key="jackpal.androidterm.Term"
+            android:title="Termenal Emulator"
+            android:summary="@string/term_emu_pref_sum" />
+        <PreferenceScreen
+            android:key="eu.chainfire.supersu.MainActivity"
+            android:title="SuperSU"
+            android:summary="@string/supersu_pref_sum" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Useful Commands">
+        <PreferenceScreen
+            android:key="script#perm-fix"
+            android:title="@string/fix_perm1"
+            android:summary="@string/fix_perm1_sum" />
+    </PreferenceCategory>
+</PreferenceScreen>

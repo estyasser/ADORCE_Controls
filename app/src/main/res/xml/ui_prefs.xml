@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/status_bar_cat">
+        <SwitchPreference
+            android:key="heads_up_notifications_enabled"
+            android:defaultValue="1"
+            android:title="@string/headsup_noti"
+            android:summaryOn="@string/summaryOn"
+            android:summaryOff="@string/summaryOff" />
+        <SwitchPreference
+            android:key="ticker_toggle"
+            android:defaultValue="true"
+            android:title="@string/statusbar_ticker"
+            android:summaryOn="@string/summaryOn"
+            android:summaryOff="@string/summaryOff" />
+        <SwitchPreference
+            android:key="hide_ongoing_notif"
+            android:defaultValue="true"
+            android:title="@string/ongoing_noti_hide"
+            android:summaryOn="@string/summaryOn"
+            android:summaryOff="@string/summaryOff" />
+        <SwitchPreference
+            android:key="statusbar_hide_alarm"
+            android:defaultValue="true"
+            android:title="@string/alarm_icon_visibility"
+            android:summaryOn="@string/visibility_on"
+            android:summaryOff="@string/visibility_off" />
+        <SwitchPreference
+            android:key="statusbar_hide_bluetooth"
+            android:defaultValue="true"
+            android:title="@string/bt_icon_visibility"
+            android:summaryOn="@string/visibility_on"
+            android:summaryOff="@string/visibility_off" />
+        <SwitchPreference
+            android:key="statusbar_hide_volume"
+            android:defaultValue="true"
+            android:title="@string/sound_icons_visibility"
+            android:summaryOn="@string/visibility_on"
+            android:summaryOff="@string/visibility_off" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/notfication_panel">
+        <com.ADORCE.controls.prefs.MyListPreference
+            android:key="change_expanded_clock"
+            android:defaultValue="0"
+            android:title="@string/expanded_clock_style"
+            android:summary="@string/expanded_clock_sum"
+            android:entries="@array/clock_style_entries"
+            android:entryValues="@array/clock_style_values" />
+        <com.ADORCE.controls.prefs.MyListPreference
+            android:key="toggle_number"
+            android:defaultValue="6"
+            android:title="@string/qtoggles_no"
+            android:entries="@array/toggle_entries"
+            android:entryValues="@array/toggle_values" />
+        <SwitchPreference
+            android:key="toggle_text"
+            android:defaultValue="true"
+            android:title="@string/qtoggle_text"
+            android:summaryOn="@string/visibility_on"
+            android:summaryOff="@string/visibility_off" />
+        <com.ADORCE.controls.prefs.ColorPickerPreference
+            android:key="toggle_text_color"
+            android:defaultValue="@integer/Cwhite"
+            android:title="@string/qtoggle_color" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
