@@ -47,11 +47,11 @@
             android:entries="@array/clock_style_entries"
             android:entryValues="@array/clock_style_values" />
         <com.ADORCE.controls.prefs.MyListPreference
-            android:key="toggle_number"
-            android:defaultValue="6"
+            android:key="qs_toggles_num"
+            android:defaultValue="5"
             android:title="@string/qtoggles_no"
-            android:entries="@array/toggle_entries"
-            android:entryValues="@array/toggle_values" />
+            android:entries="@array/qs_toggles_entries"
+            android:entryValues="@array/qs_toggles_values" />
         <SwitchPreference
             android:key="toggle_text"
             android:defaultValue="true"
